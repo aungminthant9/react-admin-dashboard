@@ -3,10 +3,46 @@
 @tailwind utilities;
 
 @layer utilities{
+    .navIcon{
+        @apply relative cursor-pointer mr-[10px];
+    }
+    .noti{
+        @apply w-[15px] h-[15px] absolute top-[-5px] right-0 bg-red-600 text-white rounded-[50%] flex items-center justify-center text-[10px];
+    }
     .sidebarList{
-        @apply p-[5px] cursor-pointer flex items-center rounded-[10px];
+        @apply p-[5px] cursor-pointer flex items-center rounded-[10px] hover:bg-gray-100 active:bg-gray-100;
     }
     .sidebarTitle{
         @apply text-[13px] text-gray-400;
+    }
+    .sidebarIcon{
+        @apply mr-[5px] text-[20px] !important;
+    }
+    .featured{
+        @apply w-full flex justify-between;
+    }
+    .featuredItem{
+       @apply flex-1 my-0 mx-[20px] p-[30px] shadow-md rounded-lg;
+    }
+    .featuredTitle{
+        @apply text-[20px] font-bold;
+    }
+    .featuredMoneyContainer{
+        @apply my-[10px] mx-0 flex items-center;
+    }
+    .featuredMoney{
+       @apply text-[30px] font-semibold;
+    }
+    .featuredMoneyRate{
+       @apply flex items-center ml-[20px];
+    }
+    .featuredIcon{
+        @apply text-[14px] ml-[5px] text-green-500;
+    }
+    .featuredIcon.negative{
+        @apply text-red-600;
+    }
+    .featuredSub{
+        @apply text-[15px] text-gray-400;
     }
 }
