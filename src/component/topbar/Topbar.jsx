@@ -3,7 +3,7 @@ import amari from '../../assets/Amari.png';
 
 const Topbar = () => {
     return (  
-        <div className="w-full h-[50px] bg-white sticky top-0 z-[999]">
+        <div className="w-full h-[50px] sticky top-0 z-[999] bg-gray-100 rounded-xl shadow-md">
             <div className="h-full py-0 px-[20px] flex items-center justify-between">
                 <div className='topLeft'>
                     <span className="font-bold text-[30px] text-blue-800 cursor-pointer">AungAdmin</span>

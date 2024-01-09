@@ -1,4 +1,4 @@
-import Home from "./component/pages/Home";
+import Home from "./pages/Home";
 import Sidebar from "./component/sidebar/Sidebar";
 import Topbar from "./component/topbar/Topbar";
 

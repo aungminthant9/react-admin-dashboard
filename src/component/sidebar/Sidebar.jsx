@@ -3,7 +3,7 @@ import {LineStyle,Timeline,TrendingUp,PermIdentity,Storefront,AttachMoney,
 
 const Sidebar = () => {
     return ( 
-        <div className="flex-[1] h-screen sticky">
+        <div className="flex-1 h-[calc(100vh-50px)] sticky top-[50px]">
           <div className='p-[20px] text-[#555]'>
           <div className='mb-[10px] '>
                 <h3 className='sidebarTitle'>Dashboard</h3>
