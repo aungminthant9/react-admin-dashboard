@@ -23,7 +23,7 @@ const Topbar = () => {
                       <Settings/>
                     </div>
                     {/**Avatar */}
-                    <img src={amari} alt='' className='w-[40px] h-[40px] rounded-[50px] cursor-pointer'/> 
+                    <img src={amari} alt='' className='w-[40px] h-[40px] rounded-full object-cover cursor-pointer'/> 
                 </div>
             </div>
         </div>

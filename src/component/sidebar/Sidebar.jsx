@@ -1,5 +1,6 @@
 import {LineStyle,Timeline,TrendingUp,PermIdentity,Storefront,AttachMoney,
         BarChart,MailOutline,DynamicFeed,ChatBubbleOutline,WorkOutline,Report} from '@mui/icons-material'
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     return ( 
@@ -8,11 +9,13 @@ const Sidebar = () => {
           <div className='mb-[10px] '>
                 <h3 className='sidebarTitle'>Dashboard</h3>
                 <ul className='p-[5px]'>
+                  <Link to='/'>
                     <li className='sidebarList'>
                       <LineStyle className='sidebarIcon'/>
                       Home
-                     </li>
-
+                    </li>
+                  </Link>
+                    
                     <li className='sidebarList'>
                       <Timeline className='sidebarIcon'/>
                       Analytics
@@ -28,10 +31,12 @@ const Sidebar = () => {
             <div className='mb-[10px] '>
                 <h3 className='sidebarTitle'>Quick Menu</h3>
                 <ul className='p-[5px]'>
-                    <li className='sidebarList'>
+                  <Link to='/users'>
+                     <li className='sidebarList'>
                       <PermIdentity className='sidebarIcon'/>
                       Users
                      </li>
+                  </Link>
 
                     <li className='sidebarList'>
                       <Storefront className='sidebarIcon'/>

@@ -1,3 +1,4 @@
+import amari from './assets/Amari.png';
 export const userData = [
     {
       name: 'Jan',
@@ -47,4 +48,16 @@ export const userData = [
         name: 'Dec',
         "Active User": 5000,
       },
+  ];
+
+  export const userRows = [
+    { id: 1, username: 'John Snow',avatar:amari,email:'hon@gmail.com',status:'active',transaction:'$120.00'},
+    { id: 2, username: 'Johnny Snow',avatar:amari,email:'hon@gmail.com',status:'active',transaction:'$120.00'},
+    { id: 3, username: 'John Snow',avatar:amari,email:'hon@gmail.com',status:'active',transaction:'$120.00'},
+    { id: 4, username: 'John Snow',avatar:amari,email:'hon@gmail.com',status:'active',transaction:'$120.00'},
+    { id: 5, username: 'John Snow',avatar:amari,email:'hon@gmail.com',status:'active',transaction:'$120.00'},
+    { id: 6, username: 'John Snow',avatar:amari,email:'hon@gmail.com',status:'active',transaction:'$120.00'},
+    { id: 7, username: 'John Snow',avatar:amari,email:'hon@gmail.com',status:'active',transaction:'$120.00'},
+    { id: 8, username: 'John Snow',avatar:amari,email:'hon@gmail.com',status:'active',transaction:'$120.00'},
+    { id: 9, username: 'John Snow',avatar:amari,email:'hon@gmail.com',status:'active',transaction:'$120.00'}
   ];
