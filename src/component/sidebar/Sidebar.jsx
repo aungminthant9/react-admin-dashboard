@@ -37,11 +37,13 @@ const Sidebar = () => {
                       Users
                      </li>
                   </Link>
-
-                    <li className='sidebarList'>
-                      <Storefront className='sidebarIcon'/>
-                      Products
-                    </li>
+                  
+                  <Link to='/products'>
+                      <li className='sidebarList'>
+                        <Storefront className='sidebarIcon'/>
+                        Products
+                      </li>
+                  </Link>
 
                     <li className='sidebarList'>
                       <AttachMoney className='sidebarIcon'/>

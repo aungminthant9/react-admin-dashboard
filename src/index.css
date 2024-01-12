@@ -90,6 +90,57 @@
     .widgetLgDate,.widgetLgAmount{
         @apply font-light;
     }
+    .userShowInfo{
+        @apply flex items-center my-[20px] mx-0 text-[#444];
+    }
+    .userShowIcon{
+        @apply text-[16px] mr-[10px] !important;
+    }
+    .userUpdateItem{
+        @apply flex flex-col mt-[10px];
+    }
+    .userUpdateItem>label{
+        @apply mb-[5px] text-[14px];
+    }
+    .userUpdateInput{
+        @apply w-[250px] h-[30px] border-b-[1px] border-gray-300 outline-none;
+    }
+    .newUserItem{
+        @apply w-[400px] flex flex-col mt-[10px] mr-[20px];
+    }
+    .newUserItem>label{
+        @apply mb-[10px] text-[14px] font-semibold text-gray-400;
+    }
+    .newUserItem>input{
+        @apply h-[40px] p-[10px] border-[1px] border-gray-500 rounded-[5px];
+    }
+    .newUserGender>input{
+        @apply cursor-pointer;
+    }
+    .newUserGender>label{
+        @apply m-[8px] text-[16px] text-[#555] cursor-pointer;
+    }
+    .newUserSelect{
+        @apply w-[400px] h-[40px] rounded-[5px] border-[1px] border-gray-500 mt-[9px];
+    }
+    .productInfoItem{
+        @apply w-[150px] flex justify-between;
+    }
+    .productInfoValue{
+        @apply font-light;
+    }
+    .productFormLeft{
+        @apply flex flex-col;
+    }
+    .productFormLeft>label{
+        @apply mb-[10px] text-gray-500;
+    }
+    .productFormLeft>input{
+        @apply mb-[10px] p-[5px] border-b-[1px] border-b border-gray-400 outline-none;
+    }
+    .productFormLeft>select{
+        @apply mb-[10px] outline-none;
+    }
 }
 
 td,th{
