@@ -3,6 +3,7 @@ import Chart from "../component/chart/Chart";
 import { productData } from "../dummyData";
 import airpod from '../assets/airpods.jpg';
 import { Publish } from "@mui/icons-material";
+import { ResponsiveContainer } from "recharts";
 
 const Product = () => {
     return ( 
@@ -16,33 +17,35 @@ const Product = () => {
                    </button>
                 </Link>
             </div>
-            <div className="flex ">
+            <div className="flex">
                 <div className="flex-[2.5]">
-                    <Chart data={productData} dataKey='Sales' title='Sales Performance'/>
+                    <ResponsiveContainer>
+                      <Chart data={productData} dataKey='Sales' title='Sales Performance'/>
+                    </ResponsiveContainer>
                 </div>
                 <div className="flex-1 shadow-custom p-[20px] m-[20px] rounded-xl">
-                    <div className="flex items-center">
+                    <div className="flex items-center justify-center">
                         <img src={airpod} alt="" className="w-[50px] h-[50px] rounded-full object-cover mr-[20px]"/>
                         <span className="font-semibold">Apple Airpod</span>
                     </div>
-                    <div className="mt-[20px]">
+                    <div className="mt-[20px] flex flex-col items-center justify-center">
                         <div className="productInfoItem">
-                           <span className="productInfoKey">id:</span>
+                           <span className="productInfoKey">Id:</span>
                            <span className="productInfoValue">123</span>
                         </div>
 
                         <div className="productInfoItem">
-                           <span className="productInfoKey">sales:</span>
+                           <span className="productInfoKey">Sales:</span>
                            <span className="productInfoValue">$123</span>
                         </div>
 
                         <div className="productInfoItem">
-                           <span className="productInfoKey">active:</span>
+                           <span className="productInfoKey">Active:</span>
                            <span className="productInfoValue">yes</span>
                         </div>
 
                         <div className="productInfoItem">
-                           <span className="productInfoKey">in stock:</span>
+                           <span className="productInfoKey">In Stock:</span>
                            <span className="productInfoValue">no</span>
                         </div>
                     </div>

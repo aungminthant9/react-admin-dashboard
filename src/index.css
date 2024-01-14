@@ -126,6 +126,9 @@
     .productInfoItem{
         @apply w-[150px] flex justify-between;
     }
+    .productInfoKey{
+        @apply font-semibold;
+    }
     .productInfoValue{
         @apply font-light;
     }
@@ -136,10 +139,19 @@
         @apply mb-[10px] text-gray-500;
     }
     .productFormLeft>input{
-        @apply mb-[10px] p-[5px] border-b-[1px] border-b border-gray-400 outline-none;
+        @apply mb-[10px] p-[5px] border-b-[1px] border-gray-400 outline-none;
     }
     .productFormLeft>select{
         @apply mb-[10px] outline-none;
+    }
+    .addProductItem{
+        @apply w-[250px] flex flex-col mb-[10px];
+    }
+    .addProductItem>label{
+        @apply text-gray-400 font-semibold mb-[10px];
+    }
+    .addProductItem>input{
+        @apply p-[10px] border-[1px] border-gray-400 outline-none;
     }
 }
 
