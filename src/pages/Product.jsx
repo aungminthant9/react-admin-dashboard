@@ -9,7 +9,7 @@ const Product = () => {
     return ( 
         <div className="flex-[4] p-[20px]">
             <div className="flex items-center justify-between">
-                <h1 className="">Product</h1>
+                <h1 className="font-bold text-[24px]">Product</h1>
                 <Link to='/newproduct'>
                   <button className="w-[80px] p-[5px] bg-orange-600
                    text-white rounded-[5px] text-[16px] cursor-pointer">
